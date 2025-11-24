@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Christmas Crossword</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #e6f7ff;
+      text-align: center;
+      padding: 20px;
+      color: #222;
+    }
+    h1 {
+      color: #d40000;
+      margin-bottom: 20px;
+    }
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    td {
+      width: 40px;
+      height: 40px;
+      border: 2px solid #000;
+      text-align: center;
+      vertical-align: middle;
+      font-weight: bold;
+      font-size: 18px;
+      background-color: #ffffff;
+      position: relative;
+    }
+    .black {
+      background-color: #000;
+    }
+    .number {
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      font-size: 10px;
+      color: #d40000;
+      font-weight: bold;
+    }
+    .clues {
+      max-width: 600px;
+      margin: 30px auto;
+      text-align: left;
+      padding: 15px;
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .clues h2 {
+      color: #d40000;
+      margin-top: 0;
+    }
+    .clue {
+      margin: 6px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎄 Christmas Crossword Puzzle 🎄</h1>
+
+  <!-- Crossword grid: 10x10 -->
+  <table>
+    <tr>
+      <td><span class="number">1</span>S</td>
+      <td>N</td>
+      <td>O</td>
+      <td>W</td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+    </tr>
+    <tr>
+      <td><span class="number">2</span>N</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+    </tr>
+    <tr>
+      <td>O</td>
+      <td><span class="number">3</span>T</td>
+      <td>R</td>
+      <td>E</td>
+      <td>E</td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+    </tr>
+    <tr>
+      <td class="black"></td>
+      <td><span class="number">4</span>E</td>
+      <td>L</td>
+      <td>F</td>
+      <td></td>
+      <td><span class="number">5</span>G</td>
+      <td>I</td>
+      <td>F</td>
+      <td>T</td>
+      <td class="black"></td>
+    </tr>
+    <tr>
+      <td class="black"></td>
+      <td>I</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="black"></td>
+    </tr>
+    <tr>
+      <td class="black"></td>
+      <td>N</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+    </tr>
+    <tr>
+      <td class="black"></td>
+      <td>D</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="black"></td>
+      <td>E</td>
+      <td><span class="number">7</span>B</td>
+      <td>E</td>
+      <td>L</td>
+      <td>L</td>
+      <td>S</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="black"></td>
+      <td>R</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><span class="number">9</span>F</td>
+    </tr>
+    <tr>
+      <td class="black"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>R</td>
+    </tr>
+    <tr>
+      <td class="black"></td>
+      <td></td>
+      <td></td>
+      <td><span class="number">8</span>S</td>
+      <td>T</td>
+      <td>A</td>
+      <td>R</td>
+      <td></td>
+      <td></td>
+      <td>O</td>
+    </tr>
+    <tr>
+      <td class="black"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td><span class="number">10</span>C</td>
+    </tr>
+    <tr>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td>R</td>
+    </tr>
+    <tr>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td>O</td>
+    </tr>
+    <tr>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td class="black"></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <div class="clues">
+    <h2>Clues</h2>
+
+    <h3>Across:</h3>
+    <div class="clue">1. White flakes that fall from the sky in winter</div>
+    <div class="clue">3. Evergreen plant decorated during Christmas</div>
+    <div class="clue">5. A present given during the holidays</div>
+    <div class="clue">7. Ringing metal objects used in Christmas music</div>
+    <div class="clue">9. Ice crystals on windows or grass on cold mornings</div>
+
+    <h3>Down:</h3>
+    <div class="clue">2. Another word for Christmas (French origin)</div>
+    <div class="clue">4. A mythical helper of Santa Claus</div>
+    <div class="clue">6. Animals that pull Santa's sleigh</div>
+    <div class="clue">8. Bright shape placed on top of the Christmas tree</div>
+    <div class="clue">10. A traditional Christmas song</div>
+  </div>
+</body>
+</html>
+
